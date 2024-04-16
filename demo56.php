@@ -3,9 +3,17 @@
 
 
 
-$p
 
-"sssssssssssssss";
+
+
+
+
+
+
+
+
+
+$p = "sssssssssssssss";
 
 
 
