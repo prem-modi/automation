@@ -2,9 +2,7 @@
 
 echo "ssss";
 
-$d
-
-"sssssssssssssssssssss"
+$d = "sssssssssssssssssssss"
 
 
 
