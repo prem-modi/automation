@@ -6,7 +6,7 @@ $env = parse_ini_file($envFilepath);
 
 $servername = $env['servername'];
 $username = $env['username'];
-$password = '4563233';
+$password = '4563233ssssssssssss';
 $dbname = $env['dbname'];
 
 $conn = new mysqli($servername, $username, $password, $dbname);
