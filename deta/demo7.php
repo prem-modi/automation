@@ -1,6 +1,6 @@
 <?php
 
-echo "ssss";
+echo "premmodi";
 
 $d = "sssssssssssssssssssssdd"
 
