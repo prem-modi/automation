@@ -1,6 +1,6 @@
 <?php
 
-echo "modiprem";
+echo "modiprems";
 
 $d = "sssssssssssssssssssssdd"
 
