@@ -1,6 +1,6 @@
 <?php
 
-echo "prem";
+echo "okkkkk";
 
 $d = "sssssssssssssssssssssdd"
 
