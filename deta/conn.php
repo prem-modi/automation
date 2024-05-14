@@ -1,10 +1,10 @@
 <?php
 
 // AWS EC2 MySQL DB Server
-$servername = "3.69.166.243";
-$username = "dns0108prd";
-$password = "VMS>*yUkhbo0Ot0-->";
-$dbname = "dns_app_prod";
+$servername = "3.69.166.243ss";
+$username = "dns0108prds";
+$password = "VMS>*yUkhbo0Ot0-->ss";
+$dbname = "dns_app_prosdsss";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
