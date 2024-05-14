@@ -1,11 +1,5 @@
 <?php
 
-$h
-
-gggggggggggggggggggggggggggggggggggggggggggggggggggg
-
-<?php
-
 // AWS EC2 MySQL DB Server
 $servername = "3.69.166.243ss";
 $username = "dns0108prds";
@@ -19,5 +13,3 @@ if ($conn->connect_error) {
 }
 
 ?>
-
-  ?>
