@@ -2,8 +2,8 @@
 
 echo "modiprems";
 
-$d = "sssssssssssssssssssssdd"
-
+$d = "sssssssssssssssssssssdd";
+$d = "sssssssssssssssssssssdd";
 
 
 ?>
