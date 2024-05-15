@@ -14,8 +14,8 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    # steps:
-    # - uses: actions/checkout@v4
+    steps:
+    - name: ss-ss
 
     # - name: Validate composer.json and composer.lock
     #   run: composer validate --strict
