@@ -1,4 +1,4 @@
-name: Run Local BAT File
+name: Expose Local Server with Ngrok
 
 on:
   push:
@@ -6,20 +6,20 @@ on:
       - main
 
 jobs:
-  run_local_bat:
-    runs-on: windows-latest
+  expose_with_ngrok:
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-      
-    - name: Run local BAT file
+
+    - name: Download ngrok
       run: |
-        # Clone the repository where the BAT file resides
-        git clone https://github.com/prem-modi/automation.git
+        wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+        unzip ngrok-stable-linux-amd64.zip
+        chmod +x ngrok
+        sudo mv ngrok /usr/local/bin/ngrok
 
-        # Navigate to the cloned repository directory
-        cd automation
-
-        # Execute the BAT file
-        ./ngrokCommand.bat
+    - name: Run ngrok HTTP
+      run: |
+        ngrok http 80
