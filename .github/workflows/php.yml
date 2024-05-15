@@ -1,4 +1,4 @@
-name: Run Ngrok on Linux
+name: Update Ngrok and Expose Local Server
 
 on:
   push:
@@ -6,19 +6,20 @@ on:
       - main
 
 jobs:
-  expose_with_ngrok:
+  update_and_expose_with_ngrok:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Download and install ngrok
+    - name: Update ngrok
       run: |
         wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
         unzip ngrok-stable-linux-amd64.zip
+        chmod +x ngrok
         sudo mv ngrok /usr/local/bin/ngrok
-        chmod +x /usr/local/bin/ngrok
+        ngrok update
 
     - name: Authenticate with ngrok
       run: |
