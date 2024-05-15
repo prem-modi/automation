@@ -1,13 +1,17 @@
-name: My First Workflow
-on: [push]
+name: Run Batch File
+
+on:
+  push:
+    branches:
+      - main
 
 jobs:
-  build:
+  run_batch_file:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
       
-    - name: Run a script
-      run: echo "Hello, world!"
+    - name: Run batch file
+      run: ngrokCommand.bat
