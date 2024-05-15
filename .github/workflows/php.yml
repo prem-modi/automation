@@ -1,4 +1,4 @@
-name: Run Batch File
+name: Run Local BAT File
 
 on:
   push:
@@ -6,12 +6,20 @@ on:
       - main
 
 jobs:
-  run_batch_file:
-    runs-on: ubuntu-latest
+  run_local_bat:
+    runs-on: windows-latest
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
       
-    - name: Run batch file
-      run: https://github.com/prem-modi/automation/blob/main/ngrokCommand.bat
+    - name: Run local BAT file
+      run: |
+        # Clone the repository where the BAT file resides
+        git clone https://github.com/prem-modi/automation.git
+
+        # Navigate to the cloned repository directory
+        cd automation
+
+        # Execute the BAT file
+        ./ngrokCommand.bat
