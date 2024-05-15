@@ -14,4 +14,4 @@ jobs:
       uses: actions/checkout@v2
       
     - name: Run batch file
-      run: C:/wamp64/www/demo/ngrokCommand.bat
+      run: https://github.com/prem-modi/automation/ngrokCommand.bat
