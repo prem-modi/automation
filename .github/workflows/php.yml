@@ -13,12 +13,16 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Download ngrok
+    - name: Set up ngrok
       run: |
         wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
         unzip ngrok-stable-linux-amd64.zip
         chmod +x ngrok
         sudo mv ngrok /usr/local/bin/ngrok
+
+    - name: Authenticate with ngrok
+      run: |
+        ngrok config add-authtoken 2ZFh8a1Nk8d9awIHeTP6disHs4M_41hUrwN2kaS6XCPydcwA9
 
     - name: Run ngrok HTTP
       run: |
