@@ -1,4 +1,4 @@
-name: Update Ngrok and Expose Local Server
+name: Test Ngrok API
 
 on:
   push:
@@ -6,25 +6,12 @@ on:
       - main
 
 jobs:
-  update_and_expose_with_ngrok:
+  test_ngrok_api:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
 
-    - name: Update ngroks
+    - name: Make API Request to Ngrok
       run: |
-        wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
-        unzip ngrok-stable-linux-amd64.zip
-        chmod +x ngrok
-        sudo mv ngrok /usr/local/bin/ngrok
-        ngrok update
-
-    - name: Authenticate with ngrok
-      run: |
-        ngrok authtoken 2ZFh8a1Nk8d9awIHeTP6disHs4M_41hUrwN2kaS6XCPydcwA9
-
-    - name: Run ngrok HTTP
-      run: |
-        ngrok http 80
+        sleep 10  # Wait for ngrok to start
+        curl http://localhost:4040/api/tunnels
