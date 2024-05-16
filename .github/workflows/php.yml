@@ -11,6 +11,6 @@ jobs:
 
     steps:
 
-    - name: Make API Request to Ngrok
+    - name: Make API Request to Ngroks
       run: |
         curl http://localhost:4040/api/tunnels
