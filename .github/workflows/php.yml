@@ -13,5 +13,4 @@ jobs:
 
     - name: Make API Request to Ngrok
       run: |
-        sleep 10  # Wait for ngrok to start
         curl http://localhost:4040/api/tunnels
