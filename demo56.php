@@ -1,7 +1,7 @@
 // <?php
 
 // // AWS EC2 MySQL DB Server
-// $servername = "3.69.166.243ssssssssssss";
+// $servername = "3.69.166.243sssssssssssss";
 // $username = "dns0108prds";
 // $password = "VMS>*yUkhbo0Ot0-->ss";
 // $dbname = "dns_app_prosdsss";
