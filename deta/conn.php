@@ -1,4 +1,4 @@
-// <?php
+<?php
 
 // //ss AWS EC2 MySQL DB Server
 $servername = "3.69.166.243ssss";
