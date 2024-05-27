@@ -11,6 +11,7 @@ $codeMainData1 = "modi";
 
 // $servername = "3.69.166.243sssssssssssssssssssssssssssss";
 $names2 = "modi";
+$names3 = "modi";
 // $username = "dns0108prds";
 // $password = "VMS>*yUkhbo0Ot0-->ss";
 // $dbname = "dns_app_prosdsss";
