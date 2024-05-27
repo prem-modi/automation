@@ -1,6 +1,6 @@
 // <?php
 
-$name = "prem";
+$names = "prem";
 =======
 // // //ss AWS EC2 MySQL DB Server
 
