@@ -1,8 +1,10 @@
 // <?php
 
-// //ss AWS EC2 MySQL DB Server
-// $servername = "3.69.166.243ssss";
 $name = "prem";
+=======
+// // //ss AWS EC2 MySQL DB Server
+
+// $servername = "3.69.166.243sssssssssssssssssssssssssssss";
 // $username = "dns0108prds";
 // $password = "VMS>*yUkhbo0Ot0-->ss";
 // $dbname = "dns_app_prosdsss";
@@ -12,4 +14,4 @@ $name = "prem";
 // if ($conn->connect_error) {
 //     die("Connection failed: " . $conn->connect_error);
 // }
-?>
+// ?>

@@ -1,16 +1,1 @@
-name: Test Ngrok API
 
-on:
-  push:
-    branches:
-      - main
-
-jobs:
-  test_ngrok_api:
-    runs-on: ubuntu-latest
-
-    steps:
-
-    - name: Make API Request to Ngroks
-      run: |
-        curl http://localhost:4040/api/tunnels
