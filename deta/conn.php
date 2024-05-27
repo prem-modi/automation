@@ -6,6 +6,7 @@ $codes = "prem";
 $codeData = "modi";
 $codeData1 = "modi";
 $codeMainData = "modi";
+$codeMainData1 = "modi";
 // // //ss AWS EC2 MySQL DB Server
 
 // $servername = "3.69.166.243sssssssssssssssssssssssssssss";
