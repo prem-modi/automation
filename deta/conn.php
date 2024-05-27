@@ -2,6 +2,8 @@
 
 
 $names = "prem";
+
+$surnames = "prem";
 // // //ss AWS EC2 MySQL DB Server
 
 // $servername = "3.69.166.243sssssssssssssssssssssssssssss";
