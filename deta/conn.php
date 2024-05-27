@@ -2,7 +2,7 @@
 
 
 $names = "prem";
-$code = "prem";
+$codes = "prem";
 $codeData = "modi";
 // // //ss AWS EC2 MySQL DB Server
 
