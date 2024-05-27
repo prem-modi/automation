@@ -9,10 +9,12 @@ $codeMainData = "modi";
 $codeMainData1 = "modi";
 $codeMainData2 = "modi";
 $codeMainData3 = "modi";
+$codeMainData9 = "modi";
 // // //ss AWS EC2 MySQL DB Server
 
 // $servername = "3.69.166.243sssssssssssssssssssssssssssss";
 $names2 = "modi";
+$names3 = "modi";
 // $username = "dns0108prds";
 // $password = "VMS>*yUkhbo0Ot0-->ss";
 // $dbname = "dns_app_prosdsss";
