@@ -4,6 +4,7 @@
 $names = "prem";
 $codes = "prem";
 $codeData = "modi";
+$codeData1 = "modi";
 $codeMainData = "modi";
 // // //ss AWS EC2 MySQL DB Server
 
