@@ -6,6 +6,8 @@ $codes = "prem";
 $codeData = "modddddssssi";
 $codeData1 = "modisssss";
 $codeData122 = "modisssss";
+$codeData122 = "modisssss";
+
 
 $codeData1 = "modisssss";
 $codeData122 = "modisssss";
