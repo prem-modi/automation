@@ -29,7 +29,7 @@ $codeMainData1234 = "modisssssss";
 =======
 $mainData = "prem";
 // // //ss AWS EC2 MySQL DB Server
-echo "sss";
+echo "sssssss";
 
 // $servername = "3.69.166.243sssssssssssssssssssssssssssss";
 $names2 = "modi";
