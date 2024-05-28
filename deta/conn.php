@@ -22,7 +22,7 @@ $mainData = "prem";
 // // //ss AWS EC2 MySQL DB Server
 echo "sss";
 
-// $servername = "3.69.166.243sssssssssssssssssssssssssssss";
+// $servername = "3.69.166.243sssssssssssssssssssssggssssssss";
 $names2 = "modi";
 $names3 = "modi";
 // $username = "dns0108prds";
