@@ -16,7 +16,7 @@ $codeMainData11 = "ssssssssss";
 
 $codeMainData1234 = "modi";
 $codeMainData11 = "modis";
-$codeMainData11 = "modiswww";
+$codeMainData11 = "modiswwwssss";
 =======
 $mainData = "prem";
 // // //ss AWS EC2 MySQL DB Server
