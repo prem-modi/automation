@@ -10,6 +10,10 @@ $codeMainData1 = "modisss";
 $codeMainData2 = "sssssss";
 
 $mainData = "premxxxxxxxx";
+$codeMainData1 = "modisss";
+$codeMainData2 = "sssssss";
+
+$mainData = "premxxxxxxxx";
 // // //ss AWS EC2 MySQL DB Server
 echo "sss";
 
