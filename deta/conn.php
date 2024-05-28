@@ -1,4 +1,4 @@
-// <?php
+<?php
 
 
 $names = "prem";
@@ -8,14 +8,7 @@ $codeData1 = "modi";
 $codeMainData = "modssssssssi";
 $codeMainData1 = "modisss";
 $codeMainData2 = "sssssss";
-$codeMainData3 = "modissss";
-$codeMainData9 = "modi";
-$codeMainData123 = "modi";
-$codeMainData9 = "modi";
-$codeMainData123 = "modi";
-$codeMainData123 = "modi";
-$codeMainData9 = "modi";
-=======
+
 $mainData = "premxxxxxxxx";
 // // //ss AWS EC2 MySQL DB Server
 echo "sss";
