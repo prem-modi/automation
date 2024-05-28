@@ -5,17 +5,8 @@ $names = "prem";
 $codes = "prem";
 $codeData = "modddddssssi";
 $codeData1 = "modi";
-$codeMainData = "modssssssssi";
-$codeMainData1 = "modisss";
-$codeMainData2 = "sssssss";
-
-$mainData = "premxxxxxxxx";
-$codeMainData1 = "modisss";
-$codeMainData2 = "sssssss";
-
-$mainData = "premxxxxxxxx";
 // // //ss AWS EC2 MySQL DB Server
-echo "sss";
+echo "sssssss";
 
 // $servername = "3.69.166.243sssssssssssssssssssssggssssssss";
 $names2 = "modi";
