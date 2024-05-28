@@ -4,7 +4,7 @@
 $names = "prem";
 $codes = "prem";
 $codeData = "modddddssssi";
-$codeData1 = "modi";
+$codeData1 = "modisssss";
 
 $names = "prem";
 $codes = "prem";
