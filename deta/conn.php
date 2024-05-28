@@ -3,7 +3,7 @@
 
 $names = "prem";
 $codes = "prem";
-$codeData = "modi";
+$codeData = "modssssi";
 $codeData1 = "modi";
 $codeMainData = "modi";
 $codeMainData1 = "modi";
