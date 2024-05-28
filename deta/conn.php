@@ -5,6 +5,11 @@ $names = "prem";
 $codes = "prem";
 $codeData = "modddddssssi";
 $codeData1 = "modi";
+
+$names = "prem";
+$codes = "prem";
+$codeData = "modddddssssi";
+$codeData1 = "modi";
 // // //ss AWS EC2 MySQL DB Server
 echo "ssssssseeee";
 
