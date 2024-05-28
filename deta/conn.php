@@ -14,6 +14,8 @@ $codeMainData123 = "modi";
 $codeMainData8 = "modi";
 $codeMainData11 = "modis";
 $codeMainData123 = "modi";
+
+$mainData = "prem";
 // // //ss AWS EC2 MySQL DB Server
 echo "sss";
 
