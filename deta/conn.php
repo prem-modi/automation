@@ -1,37 +1,14 @@
-// <?php
+<?php
 
 
 $names = "prem";
 $codes = "prem";
-$codeData = "modi";
+$codeData = "modddddssssi";
 $codeData1 = "modi";
-$codeMainData = "modi";
-$codeMainData1 = "modi";
-$codeMainData2 = "modi";
-$codeMainData3 = "modi";
-$codeMainData9 = "modi";
-$codeMainData123 = "modi";
-$codeMainData8 = "modi";
-$codeMainData11 = "modis";
-$codeMainData3 = "modi";
-$codeMainData9 = "modi";
-$codeMainData123 = "modi";
-$codeMainData8 = "modi";
-$codeMainData11 = "modis";
-$codeMainData123 = "modi";
-$codeMainData8 = "modi";
-$codeMainData11 = "modis";
-$codeMainData1234 = "modi";
-$codeMainData8 = "modi";
-$codeMainData11 = "modisdddd";
-$codeMainData1234 = "modi";
-$codeMainData1234 = "modisssjjjshhhsshhhs";
-=======
-$mainData = "prem";
 // // //ss AWS EC2 MySQL DB Server
 echo "sssssss";
 
-// $servername = "3.69.166.243sssssssssssssssssssssssssssss";
+// $servername = "3.69.166.243sssssssssssssssssssssggssssssss";
 $names2 = "modi";
 $names3 = "modi";
 // $username = "dns0108prds";
