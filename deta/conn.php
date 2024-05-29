@@ -13,6 +13,7 @@ $codeData = "modddddssssi";
 $codeData1 = "modi";
 $codeData = "modddddssssi";
 $codeData1 = "modi";
+$ookcode = "modi";
 // // //ss AWS EC2 MySQL DB Server
 echo "ssssssseeee";
 
