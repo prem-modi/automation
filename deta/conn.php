@@ -19,7 +19,7 @@ $names = "prem";
 $codes = "prem";
 $codeData = "modddddssssi";
 $codeData1 = "modi";
-$password = "modddddssssi";
+$codeData1 = "modddddssssi";
 $codeData1 = "modi";
 $ookcode = "modi";
 echo "ssssssseeee";
